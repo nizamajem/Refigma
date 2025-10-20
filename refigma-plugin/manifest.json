@@ -1,0 +1,15 @@
+{
+  "name": "Refigma Plugin",
+  "id": "refigma-plugin-dev",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/main.js",
+  "ui": "dist/ui/index.html",
+  "relaunchButtons": [
+    {
+      "command": "apply-tokens-demo",
+      "name": "Apply Refigma Tokens"
+    }
+  ],
+  "permissions": ["currentuser", "activeusers"]
+}
