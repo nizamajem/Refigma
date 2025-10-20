@@ -1,0 +1,44 @@
+# Dependencies
+**/node_modules/
+
+# Build artifacts
+**/dist/
+**/build/
+**/.vite/
+**/.turbo/
+**/.nyc_output/
+**/.eslintcache
+
+# Testing and coverage
+**/coverage/
+**/reports/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+**/secrets/
+
+# Temporary files
+**/tmp/
+**/temp/
+**/.cache/
+**/.DS_Store
+**/Thumbs.db
+**/*.log
+**/*.pid
+**/*.seed
+
+# IDE & editor configs
+.idea/
+.vscode/
+*.iml
+
+# OS metadata
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Local tools
+.npmrc
+.pnpm-debug.log
